@@ -1,0 +1,53 @@
+# Production config for GitHub Pages
+# Built output goes to docs/ to match the GitHub Actions workflow.
+destination: docs/
+
+title: COGS 138
+email: mkhosla@ucsd.edu
+description: >-
+  Course website for UCSD COGS 138: Neural Data Science.
+url: https://mkhosla-ucsd.github.io
+baseurl: /cogs138
+
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+
+search_enabled: true
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - dev-docs/
+  - README.md
+
+aux_links:
+  "Course Repository": "https://github.com/mkhosla-ucsd/cogs138"
+aux_links_new_tab: true
+
+data_folder: sp26
+color_scheme: nil
+callouts_level: quiet
+callouts:
+  highlight:
+    title: Highlight
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+back_to_top: true
+back_to_top_text: "Back to top"
