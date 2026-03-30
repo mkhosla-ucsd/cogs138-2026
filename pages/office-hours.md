@@ -44,5 +44,3 @@ permalink: /office-hours/
   {% endfor %}
 {% endfor %}
 
-{: .note }
-Update staff names, emails, and office hours in `_data/sp26/variables.yml`.
