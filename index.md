@@ -41,8 +41,7 @@ This Spring 2026 site is adapted from a previous offering of the course.
 ## Course Calendar
 
 | Week | Date | Tag | Item |
-|:-----|:-----|:----|:-----|
 {% for row in course_calendar %}
   {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | minus: 1 | divided_by: 7 | plus: offset_week %}
-| Week {{ week_no }} | {{ row.date | date: "%a, %b %d" }} | {% if row.label %}`{{ row.label }}`{% endif %} | {{ row.title }} |
+| Week {{ week_no }} | {{ row.date | date: "%a, %b %d" }} | {% if row.label %}`{{ row.label }}`{% endif %} | {% if row.link and row.link != "" %}[{{ row.title }}]({{ row.link }}){% else %}{{ row.title }}{% endif %} |
 {% endfor %}
