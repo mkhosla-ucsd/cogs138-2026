@@ -20,7 +20,6 @@ A good starting structure is to choose one of the following:
 ## Deliverables
 
 | Date | Milestone |
-|:-----|:----------|
 {% for row in course_calendar %}
   {% if row.label == 'PROJ' %}
 | {{ row.date | date: "%a, %b %d" }} | {{ row.title }} |

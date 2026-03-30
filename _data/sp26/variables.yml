@@ -12,9 +12,9 @@ instructor:
   email: mkhosla@ucsd.edu
   type: Instructor
   office_hours:
-    - day: TBA
-      time: TBA
-      location: TBA
+    - day: Mon
+      time: 11am-noon
+      location: SSRB 232
 
 teaching_assistants:
   - name: Shreya Saha
