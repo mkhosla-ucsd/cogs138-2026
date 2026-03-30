@@ -32,5 +32,4 @@ Assignments are intended to reinforce the concepts covered in lecture and give y
   {% endif %}
 {% endfor %}
 
-{: .note }
-This page is pulling its deadlines directly from `_data/sp26/course_calendar.csv`, so you only need to edit the CSV to update both the home page calendar and this page.
+

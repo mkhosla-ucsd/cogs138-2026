@@ -1,10 +1,10 @@
 quarter: Spring 2026
 building: TBD
 timings: M / W / F · 10:00–10:50 AM
-canvas_link:
-gradescope_link:
-piazza_link:
-pre_course_survey:
+canvas_link: https://canvas.ucsd.edu/courses/74144/
+gradescope_link: Entry code 6XWGV7
+piazza_link: https://piazza.com/ucsd/spring2026/cogs138
+pre_course_survey: https://forms.gle/8NMuU7ToZD49L1B99
 cogsadvising: cogsadvising@ucsd.edu
 
 instructor:
@@ -17,19 +17,12 @@ instructor:
       location: TBA
 
 teaching_assistants:
-  - name: TBA
-    email:
+  - name: Shreya Saha
+    email: ssaha@ucsd.edu
     type: TA
     office_hours:
-      - day: TBA
-        time: TBA
-        location: TBA
+      - day: Fri
+        time: 11am
+        location: Room (TBD) / Zoom
 
-instructional_assistants:
-  - name: TBA
-    email:
-    type: IA
-    office_hours:
-      - day: TBA
-        time: TBA
-        location: TBA
+

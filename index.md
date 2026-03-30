@@ -27,7 +27,7 @@ Neural Data Science
 Welcome to **COGS 138: Neural Data Science**. This site is the central hub for course logistics, schedules, deadlines, readings, and project information.
 
 {: .note }
-This Spring 2026 site is adapted from a previous offering of the course. The overall structure is ready to use, and the calendar has been updated for Spring 2026. Any links or staffing details marked TBD can be filled in as the quarter unfolds.
+This Spring 2026 site is adapted from a previous offering of the course. 
 
 ## Quick links
 
