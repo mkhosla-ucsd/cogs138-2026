@@ -12,7 +12,7 @@ instructor:
   email: mkhosla@ucsd.edu
   type: Instructor
   office_hours:
-    - day: Mon
+    - day: Monday
       time: 11am-noon
       location: SSRB 232
 
@@ -21,7 +21,7 @@ teaching_assistants:
     email: ssaha@ucsd.edu
     type: TA
     office_hours:
-      - day: Fri
+      - day: Friday
         time: 11am
         location: Room (TBD) / Zoom
 
