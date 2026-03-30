@@ -28,19 +28,41 @@ permalink: /office-hours/
 
 # Office Hours
 
-| Staff | Day & Time | Location |
-|:------|:-----------|:---------|
-{% for oh in variables.instructor.office_hours %}
-| {{ variables.instructor.name }} | {{ oh.day }} {{ oh.time }} | {{ oh.location }} |
-{% endfor %}
-{% for row in variables.teaching_assistants %}
-  {% for oh in row.office_hours %}
-| {{ row.name }} | {{ oh.day }} {{ oh.time }} | {{ oh.location }} |
-  {% endfor %}
-{% endfor %}
-{% for row in variables.instructional_assistants %}
-  {% for oh in row.office_hours %}
-| {{ row.name }} | {{ oh.day }} {{ oh.time }} | {{ oh.location }} |
-  {% endfor %}
-{% endfor %}
+<table>
+  <thead>
+    <tr>
+      <th>Staff</th>
+      <th>Day &amp; Time</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for oh in variables.instructor.office_hours %}
+    <tr>
+      <td>{{ variables.instructor.name }}</td>
+      <td>{{ oh.day }} {{ oh.time }}</td>
+      <td>{{ oh.location }}</td>
+    </tr>
+    {% endfor %}
 
+    {% for row in variables.teaching_assistants %}
+      {% for oh in row.office_hours %}
+    <tr>
+      <td>{{ row.name }}</td>
+      <td>{{ oh.day }} {{ oh.time }}</td>
+      <td>{{ oh.location }}</td>
+    </tr>
+      {% endfor %}
+    {% endfor %}
+
+    {% for row in variables.instructional_assistants %}
+      {% for oh in row.office_hours %}
+    <tr>
+      <td>{{ row.name }}</td>
+      <td>{{ oh.day }} {{ oh.time }}</td>
+      <td>{{ oh.location }}</td>
+    </tr>
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>
